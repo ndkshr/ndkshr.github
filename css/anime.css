@@ -1,5 +1,6 @@
 
 .trigger {
+<<<<<<< HEAD
   width: 256px;
   height: 256px;
   margin-left: auto;
@@ -10,6 +11,14 @@
 .triggerText{
   margin-left: auto;
   margin-right: auto;
+=======
+   width: 256px;
+  height: 256px;
+  margin-left: auto;
+    margin-right: auto;
+	background:url(../img/nkcir.png);
+  
+>>>>>>> 2e4dfd488f7eefb64a8ac2b1d04cc3818d944372
 }
 
 .image {
@@ -20,6 +29,7 @@
   pointer-events: none;
 }
 
+<<<<<<< HEAD
 .nameText {
   display: absolute;
   margin-left: auto;
@@ -30,12 +40,21 @@
   pointer-events: none;
 }
 
+=======
+>>>>>>> 2e4dfd488f7eefb64a8ac2b1d04cc3818d944372
 .trigger:hover .image {
   -webkit-transform: translate(200px, 100px) rotate(20deg);
           transform: translate(200px, 100px) rotate(20deg);
 }
 
+<<<<<<< HEAD
 .triggerText:hover .nameText {
   -webkit-transform: translate(-200px, 0px);
           transform: translate(-200px, 0px);
 }
+=======
+.trigger:hover .nameText {
+  -webkit-transform: translate(-200px, 0px);
+          transform: translate(-200px, 0px);
+}
+>>>>>>> 2e4dfd488f7eefb64a8ac2b1d04cc3818d944372
