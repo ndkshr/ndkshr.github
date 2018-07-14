@@ -2,18 +2,12 @@ body {
   font-family: 'Lato';
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-family: 'Montserrat';
 }
 
-hr.star-light,
-hr.star-dark {
+hr.star-light, hr.star-dark {
   max-width: 15rem;
   padding: 0;
   text-align: center;
@@ -23,8 +17,7 @@ hr.star-dark {
   margin-bottom: 2.5rem;
 }
 
-hr.star-light:after,
-hr.star-dark:after {
+hr.star-light:after, hr.star-dark:after {
   position: relative;
   top: -.8em;
   display: inline-block;
@@ -148,11 +141,11 @@ section h2 {
   #mainNav .navbar-nav {
     margin-top: 0;
   }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
     color: #fff;
     background: #1831BC;
   }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active, #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus, #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
     color: #fff;
     background: #9b0999;
   }
@@ -271,8 +264,7 @@ header.masthead h2 {
   border-bottom: 1px solid #e9ecef;
 }
 
-.floating-label-form-group input,
-.floating-label-form-group textarea {
+.floating-label-form-group input, .floating-label-form-group textarea {
   font-size: 1.5em;
   position: relative;
   z-index: 1;
@@ -344,7 +336,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18181b!important;
+  background-color: #18181b !important;
 }
 
 .bg-secondary {
@@ -352,7 +344,7 @@ a:focus, a:hover, a:active {
 }
 
 .text-primary {
-  color: #18181b!important;
+  color: #18181b !important;
 }
 
 .text-secondary {
