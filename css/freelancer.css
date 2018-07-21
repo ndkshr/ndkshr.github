@@ -33,15 +33,15 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #17181d;
+  background-color: #020911;
 }
 
 hr.star-dark {
-  border-color: #2C3E50;
+  border-color: #020911;
 }
 
 hr.star-dark:after {
-  color: #2C3E50;
+  color: #020911;
   background-color: white;
 }
 
@@ -336,15 +336,15 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18181b !important;
+  background-color: #020911 !important;
 }
 
 .bg-secondary {
-  background-color: #f06d0c !important;
+  background-color: #ba401b !important;
 }
 
 .text-primary {
-  color: #18181b !important;
+  color: #020911 !important;
 }
 
 .text-secondary {
