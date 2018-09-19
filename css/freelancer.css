@@ -336,11 +336,11 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #020911 !important;
+  background-color: #ffffff !important;
 }
 
 .bg-secondary {
-  background-color: #ba401b !important;
+  background-color: #141414 !important;
 }
 
 .text-primary {
@@ -352,8 +352,8 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary {
-  background-color: #1831BC;
-  border-color: #1831BC;
+  background-color: #5cb85c;
+  border-color: #5cb85c;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
