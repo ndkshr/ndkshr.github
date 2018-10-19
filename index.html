@@ -96,11 +96,21 @@
 							Sekharathil
 				  			</h1>
 
+                <script>
+								var interval = 730;
+								var callSwitch = setInterval(switchText, interval);
+                  function switchText(){
+										var wordList = ['Who am I?','Student', 'Engineer', 'Coder', 'Batman Fan','Who am I?', 'Graphic Designer', 'Sports', 'Physics', 'Machine Learning', 'Atheist'];
+                    document.getElementById('who').innerHTML = wordList[Math.floor(Math.random()*wordList.length)];
+                  }
+                </script>
+
 				  			<div class="more animate-intro">
-				  				<a class="smoothscroll button stroke" >
-				  					Engineer | Student
+				  				<a id='who' class="smoothscroll button stroke">
+										Who am I?
 				  				</a>
 				  			</div>
+
 
 			  		</div> <!-- end col-twelve -->
 		   	</div> <!-- end row -->
@@ -128,7 +138,7 @@
 		   	<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 			</a>
 		</div>
-    
+
    </section> <!-- end home -->
 
 
@@ -159,7 +169,7 @@
 
       		<div class="col-twelve">
 	      		<div class="copyright">
-		         	<span>© Copyright www.ndkshr.ml</span>
+		         	<span>© Copyright www.ndkshr.me | <a href="https://github.com/ndkshr">github.com/ndkshr</a></span>
 		         </div>
 	      	</div>
 
