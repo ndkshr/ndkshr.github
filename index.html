@@ -110,11 +110,30 @@
 						</script>
 
 						<div class="more animate-intro">
-							<a id='who' class="smoothscroll button stroke">
+							<a id='who' class="smoothscroll button stroke"
+							style="background: transparent; color: white;">
 								Who am I?
 							</a>
 						</div>
 
+						<div class="more animate-intro" >
+							<a id="portfolio_button" class="smoothscroll button "
+							onmouseover = "changeSpecialButtonStyle(this, 'transparent', 'white')"
+							onmouseout = "changeSpecialButtonStyle(this, 'white', 'black')"
+							onclick = "gotohref('portfolio/index.html#portfolio')"
+							style="background: white; color: black;">
+									Projects
+							</a>
+
+							<a href="https://google.com" 
+							id="resume_button" class="smoothscroll button"
+							onmouseover="changeSpecialButtonStyle(this, 'transparent', 'white')"
+							onmouseout="changeSpecialButtonStyle(this, 'white', 'black')" 
+							onclick = "gotohref('resume/resume.html')"
+							style="background: white; color: black;">
+								Resume/Hire Me
+							</a>
+						</div>
 
 					</div> <!-- end col-twelve -->
 				</div> <!-- end row -->
@@ -217,7 +236,15 @@
 			}
 
 			document.getElementById("myAge").innerHTML = age;
-		}				
+		 }
+		 
+		 function changeSpecialButtonStyle(obj, bgcolor, textcolor) {
+			 obj.style.background = bgcolor;
+			 obj.style.color = textcolor;
+		 }
+		 function gotohref(url) {
+			window.location.href = url;
+		 }
 	</script>
 
 </body>
